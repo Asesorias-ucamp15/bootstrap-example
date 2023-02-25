@@ -1,0 +1,45 @@
+.hero{
+  background-color: #64a6a8;
+}
+
+.hero-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 400px) {
+  .hero-img{
+    display: none;
+  }
+}
+
+.hero-content{
+  padding: 8rem 0;
+}
+
+@media (max-width: 600px) {
+  .hero-content{
+    padding: 4rem 0;
+  }
+}
+
+.cards-container{
+  padding: 4rem 0;
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .content-img{
+    scale: 50%;
+  }
+}
+
+.content-img-container{
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
